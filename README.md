@@ -47,6 +47,6 @@ Note: sparketl_2.12-0.1.jar can be found at https://github.com/redfruitt/DataEng
 
 ## Scope for improvements
 
-Add support for mutliple source/destinations types such as S3/Redshift/PostgresSQL
-Provide additional support for pushdown queries at source level
-Provide support for additional options for writing data to different mediums.
+ - Add support for mutliple source/destinations types such as S3/Redshift/PostgresSQL
+ - Provide additional support for pushdown queries at source level
+ - Provide support for additional options for writing data to different mediums.

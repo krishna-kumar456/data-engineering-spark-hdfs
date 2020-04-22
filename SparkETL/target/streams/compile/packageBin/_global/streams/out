@@ -1,0 +1,21 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /home/krishna/Code/DEProjects/NykaaRound/DataEngineering-Spark-HDFS/SparkETL/target/scala-2.12/sparketl_2.12-0.1.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ETL[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/krishna/Code/DEProjects/NykaaRound/DataEngineering-Spark-HDFS/SparkETL/target/scala-2.12/classes/ETL[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ETL/SparkETL$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/krishna/Code/DEProjects/NykaaRound/DataEngineering-Spark-HDFS/SparkETL/target/scala-2.12/classes/ETL/SparkETL$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ETL/jobConfigClusterHandler$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/krishna/Code/DEProjects/NykaaRound/DataEngineering-Spark-HDFS/SparkETL/target/scala-2.12/classes/ETL/jobConfigClusterHandler$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ETL/jobConfigDestinationHandler.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/krishna/Code/DEProjects/NykaaRound/DataEngineering-Spark-HDFS/SparkETL/target/scala-2.12/classes/ETL/jobConfigDestinationHandler.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ETL/jobConfigClusterHandler.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/krishna/Code/DEProjects/NykaaRound/DataEngineering-Spark-HDFS/SparkETL/target/scala-2.12/classes/ETL/jobConfigClusterHandler.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ETL/jobConfigDestinationHandler$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/krishna/Code/DEProjects/NykaaRound/DataEngineering-Spark-HDFS/SparkETL/target/scala-2.12/classes/ETL/jobConfigDestinationHandler$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ETL/jobConfigSourceHandler.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/krishna/Code/DEProjects/NykaaRound/DataEngineering-Spark-HDFS/SparkETL/target/scala-2.12/classes/ETL/jobConfigSourceHandler.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ETL/SparkETL.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/krishna/Code/DEProjects/NykaaRound/DataEngineering-Spark-HDFS/SparkETL/target/scala-2.12/classes/ETL/SparkETL.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ETL/jobConfigSourceHandler$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/krishna/Code/DEProjects/NykaaRound/DataEngineering-Spark-HDFS/SparkETL/target/scala-2.12/classes/ETL/jobConfigSourceHandler$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m

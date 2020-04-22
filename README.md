@@ -1,14 +1,20 @@
-# DataEngineering-Spark-HDFS
+# ETL via Apache Spark with HDFS
 
-# get container id, assign to env variable
-$ export CONTAINER_ID=$(sudo docker ps --filter name=master --format "{{.ID}}")
 
-# copy count.py
-$ sudo docker cp count.py $CONTAINER_ID:/tmp
 
-# run spark
-$ sudo docker exec $CONTAINER_ID \
-  bin/spark-submit \
-    --master spark://master:7077 \
-    --class endpoint \
-    /tmp/count.py
+
+
+
+
+## Instructions to run
+
+
+### Populate jobConfig.json
+
+Fill jobConfig.json as per required
+
+### Submit SparkETL jar to Spark cluster with jobConfig.json as parameter
+
+bin/spark-submit  --master <spark-master-url> --class ETL.SparkETL /path/to/sparketl_2.12-0.1.jar /path/to/jobConfig.json
+
+Note: sparketl_2.12-0.1.jar can be found at https://github.com/redfruitt/DataEngineering-Spark-HDFS/tree/master/SparkETL/target/scala-2.12

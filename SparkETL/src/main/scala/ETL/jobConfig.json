@@ -9,34 +9,35 @@
     "sourceId": "author",
     "sourceType": "",
     "fileType": "csv",
-    "path": "/home/krishna/Code/DEProjects/NykaaRound/DataEngineering-Spark-HDFS/data/SampleData/author.csv"
+    "path": "<custom-path>/SampleData/author.csv"
     },
     {
       "sourceId": "book",
       "sourceType": "",
       "fileType": "csv",
-      "path": "/home/krishna/Code/DEProjects/NykaaRound/DataEngineering-Spark-HDFS/data/SampleData/book.csv"
+      "path": "<custom-path>/SampleData/book.csv"
     },
     {
       "sourceId": "review",
       "sourceType": "",
       "fileType": "csv",
-      "path": "/home/krishna/Code/DEProjects/NykaaRound/DataEngineering-Spark-HDFS/data/SampleData/reviews.csv"
+      "path": "<custom-path>/reviews.csv"
     },
     {
       "sourceId": "user",
       "sourceType": "",
       "fileType": "csv",
-      "path": "/home/krishna/Code/DEProjects/NykaaRound/DataEngineering-Spark-HDFS/data/SampleData/user.csv"
+      "path": "<custom-path>/SampleData/user.csv"
     }
 
   ],
 
-  "destination": [{
+    "destination": [
+	{
     "destinationId": "popular_reviews",
     "destinationType": "",
     "fileType": "csv",
-    "path": "/home/krishna/Code/DEProjects/NykaaRound/DataEngineering-Spark-HDFS/Output/popular_reviews2",
+    "path": "<custom-path>/home/krishna/Code/DEProjects/NykaaRound/DataEngineering-Spark-HDFS/Output/popular_reviews2",
     "analyticalQuery": "SELECT author_id, count(review_id) as review_count FROM review WHERE record_create_timestamp > '2020-02-19 22:00:00.312545' AND record_create_timestamp < '2020-02-19 22:25:00.312545' GROUP BY author_id ORDER BY review_count DESC LIMIT 10"
   }
 
